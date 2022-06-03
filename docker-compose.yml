@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   backendexpressnodejs:
-    image: backendexpressnodejs
+    image: backend-express-nodejs
     build:
       context: .
       dockerfile: ./Dockerfile
